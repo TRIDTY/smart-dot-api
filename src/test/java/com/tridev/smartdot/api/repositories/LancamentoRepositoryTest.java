@@ -1,4 +1,6 @@
-package com.tridev.smartdot.api;
+package com.tridev.smartdot.api.repositories;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,10 +8,11 @@ import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
 @ActiveProfiles("test")
-class SmartDotApplicationTests {
+class LancamentoRepositoryTest {
 
 	@Test
-	void contextLoads() {
+	void test() {
+		fail("Not yet implemented");
 	}
 
 }
